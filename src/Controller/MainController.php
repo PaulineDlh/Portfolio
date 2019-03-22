@@ -46,15 +46,6 @@ class MainController extends AbstractController
     }
 
     /**
-     * @Route("/ppe3", name="ppe3")
-     */
-    public function getPpe3(){
-        return $this->render('main/ppe3.html.twig', [
-            'title' => 'PPE 3',
-        ]);
-    }
-
-    /**
      * @Route("/ppe4CSharp", name="ppe4CSharp")
      */
     public function getClientCSharp(){
