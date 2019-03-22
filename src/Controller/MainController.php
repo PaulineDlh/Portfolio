@@ -80,4 +80,13 @@ class MainController extends AbstractController
             'title' => 'Mon CV',
         ]);
     }
+
+    /**
+     * @Route("/projets", name="projets")
+     */
+    public function getProjets(){
+        return $this->render('main/projets.html.twig', [
+        'title' => 'Mes projets',
+        ]);
+    }
 }
