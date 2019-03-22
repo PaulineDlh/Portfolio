@@ -1,7 +1,60 @@
 {% extends 'base.html.twig' %}
 
+{% block stylesheets %}
+    <link rel="stylesheet" href="/css/style.css">
+{% endblock %}
+
 {% block body %}
 
-    <h1><u>PPE 4 - Client lourd C#</u></h1>
+    <h1><u>PPE 4 - Client lourd C#</u></h1><br/>
+
+    <div class="container">
+        <div class="row">
+            <img class="articleElm" src="img/Bdd_open.png" style="width:259px; height:150px; margin-top:88px;">
+            <div class="col-sm" style="overflow:auto; margin-top:125px;">
+                <a>Lorsque l'application est exécutée, la connexion à la base de données est établie.</a>
+            </div>
+        </div>
+        <div class="row">
+            <img class="articleElm" src="img/Client.png" alt="" style="width:647px; height:450px; margin-top:88px;">
+            <div class="col-sm" style="overflow:auto; margin-top:140px;">
+                <a>L'onglet "Client" contient les différents clients répertoriés dans la base de données ainsi que leurs adresses.<br><br>
+                    Lorsqu'on clique sur un client, les adresses qui lui sont associées s'affichent dans le composant en-dessous.</a>>
+            </div>
+        </div>
+        <div class="row">
+            <img class="articleElm" src="img/Client&Adresse_nv.png" alt="" style="width:647px; height:450px; margin-top:88px;">
+            <div class="col-sm" style="overflow:auto; margin-top:140px;">
+                <a>Lorsqu'on clique sur "Ajouter", que ce soit pour un client ou pour une adresse, des formulaires apparaissent.<br><br>
+                    Il est alors possible de saisir les informations du nouveau client ou de la nouvelle adresse</a>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-sm-3 m-1">
+                <img class="articleElm" src="img/Client_modifier.png" style="height:150px; margin-top:88px;">
+            </div>
+
+            <div class="col-sm-3 m-1">
+                <img class="articleElm" src="img/Adresse_modifier.png" style="height:150px; margin-top:88px;">
+            </div>
+
+            <div class="col-sm-3 m-1" style="margin-top:120px;">
+                <a>Lorsqu'on clique sur "Modifier", que ce soit
+                    pour un client ou pour une adresse, des formulaires apparaissent.<br><br>
+                    Il est alors possible de saisir les informations<br>
+                    du nouveau client ou de la nouvelle adresse</a>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <img src="img/Bdd_closed.png" style="width:259px; height:150px; margin-top:88px;">
+            <div class="col-sm" style="overflow:auto; margin-top:140px;">
+                <a>Lorsqu'on quitte l'application, la connexion à la base de données est fermée.</a>
+            </div>
+        </div>
+    </div>
 
 {% endblock %}
