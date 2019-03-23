@@ -6,3 +6,17 @@
     text-decoration: none;
     box-shadow: 0 0 11px rgba(33,33,33,.2);
 }
+
+.container {
+    font-family: Arial;
+    font-size: large;
+    text-align: center;
+}
+
+img {
+    width: 800px;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+}
+

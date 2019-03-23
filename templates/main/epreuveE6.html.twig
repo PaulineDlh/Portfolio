@@ -1,14 +1,147 @@
 {% extends 'base.html.twig' %}
 
+{% block stylesheets %}
+    <link rel="stylesheet" href="/css/style.css">
+{% endblock %}
+
 {% block body %}
 
     <h1><u>Epreuve E6</u></h1>
-    ppe 1
     ppe2
     ppe 3
     ppe 4 - c#
     ppe 4 - Appli
     stage 1
     stage 2
+
+    <div class="container">
+        <p>
+            <h2>Projet Personnel Encadré n°1 :</h2>
+            <u><strong>Contexte :</strong></u> La filiale développement web de GSB, GSB-Dev, a remporté l'appel d'offres
+            du comité d'organisation des jeux olympiques de Paris 2024. Vous êtes chargés de réaliser des sites web pour la
+            communication des différentes disciplines sportives.<br>
+            Nous avons donc choisi le Judo comme discipline olympique sur laquelle porterait notre site.<br><br>
+            <u><strong>La page d'accueil :</strong></u><br>
+            L'utilisateur accède à une vidéo de présentation sur le Judo et à une courte <br>
+            description de ce sport.<br>
+            Nous avons placé des ancres sur toutes les pages du site, ce qui permet à l'utilisateur d'accéder<br>
+            directement au haut/bas de la page, d'un simple clic.<br>
+            De plus, le logo des Jeux Olympiques est présent en haut à gauche de chaque page.<br>
+        </p>
+        <img src="img/ppe1_accueil.png"><br><br>
+
+        <p>
+            <u><strong>La page "Règles" :</strong></u><br>
+            Les différentes règles du Judo sont expliquées sur cette page. 1er extrait :
+        </p>
+        <img src="img/Règles_1.png"><br><br>
+        <p>2nd extrait : nous pouvons constater que nous avons appris à faire une liste et à en modifier les puces :</p>
+        <img src="img/Règles_2.png"><br><br>
+
+        <p>
+            <u><strong>La page "Champions" :</strong></u><br>
+            Nous avons appris ici à intégrer des images à notre site internet, à les placer<br>
+            et les redimensionner.
+        </p>
+        <img src="img/Champions.png"><br><br>
+
+        <p>
+            <u><strong>Un espace d'inscription :</strong></u><br>
+            Pour coder ceci, nous avons utilisé du Php, et ce pour la toute première fois !
+        </p>
+        <img src="img/Inscription.png"><br><br>
+
+        <p>
+            <u><strong>Un espace de connexion :</strong></u><br>
+            Enfin, après s'être inscit, l'utilisateur doit évidemment <br>
+            avoir la possibilité de se connecter. <br>
+            Nous avons par la même occasion appris à insérer un lien vers une autre page de notre site.
+        </p>
+        <img src="img/Connexion.png"><br><br>
+
+        <p>
+            <h2>Projet Personnel Encadré n°2 :</h2>
+            <u><strong>La page d'accueil :</strong></u><br>
+            <u><strong>Contexte :</strong></u>La M2E accueille dans ses locaux une jeune SSII. Pour l'aider à démarrer, <br>
+            elle vous a mis à disposition de cette entreprise pour développer le projet.<br>
+            Nous avons choisi de développer un site de vente en ligne qui proposerait des produits dérivés.<br><br>
+            La première version était le site vitrine et devait comporter les pages suivantes :<br><br>
+            <u><strong>La page d'accueil :</strong></u><br>
+            On peut y apercevoir la mascotte, Poulpi, qui accueille les clients avec <br>
+            un message de bienvenue.<br>
+            De plus, nous avons mis un carroussel avec des images annonçant des promotions.
+        </p>
+        <img src="img/accueil_ppe2.png"><br><br>
+
+        <p>
+        <u><strong>Le catalogue : (figurines)</strong></u><br>
+            Il y a un système de notation des produits. Les clients peuvent sélectionner <br>
+            les produits en fonction du prix et de la moyenne des notes laissées par les autres utilisateurs du site.<br>
+        </p>
+        <img src="img/catalogue.png"><br><br>
+
+        <p>
+            <u><strong>La page produit :</strong></u><br>
+            Lorsqu'on clique sur un produit du catalogue, nous arrivons sur la fiche détaillée.<br>
+            Diverses informations sont affichées (prix, quantité, disponibilité, description).<br>
+            Nous avons appris à faire en sorte que le produit puisse avoir plusieurs photos.<br>
+            En-dessous, des produits de la même catégorie que le produit visionné sont présentés au client.<br>
+        </p>
+        <img src="img/produit.png"><br><br>
+
+        <p>
+            <u><strong>La page d'inscription :</strong></u><br>
+        </p>
+        <img src="img/inscription_ppe2.png"><br><br>
+
+        <p>
+            <u><strong>La page de connexion :</strong></u><br>
+        </p>
+        <img src="img/connexion_ppe2.png"><br><br>
+
+        <p>
+            <u><strong>Mode "connecté" :</strong></u><br>
+            Lorsqu'on est connecté, nous avons alors accès à plus d'options (éditer le profil, voir ses commandes).<br>
+            L'admin a les droits de modifier le catalogue et de consulter l'historique de toutes les commandes passées.<br>
+        </p>
+        <img src="img/connecté.png" style="width: 350px;"><br><br>
+
+        <p>
+            <u><strong>La page des commandes :</strong></u><br>
+            La page des commandes contient les différentes informations ci-dessous (pour l'administrateur) :<br>
+        </p>
+        <img src="img/commandes.png"><br><br>
+
+        <p>
+            <u><strong>La page profil :</strong></u><br>
+            Le client a la possibilité de modifier les informations de son compte, ainsi que ses adresses.<br>
+        </p>
+        <img src="img/profil.png"><br><br>
+
+        <p>
+            <u><strong>La page "modifier catalogue" :</strong></u><br>
+            L'administrateur peut bien sûr ajouter, modifier ou supprimer des articles.<br>
+        </p>
+        <img src="img/admin_catalogue.png"><br><br>
+
+        <p>
+            <u><strong>La page "ajouter produit" :</strong></u><br>
+            S'il décide d'ajouter un produit :.<br>
+        </p>
+        <img src="img/add_produit.png"><br><br>
+
+        <p>
+            <u><strong>La page "modifier produit" :</strong></u><br>
+            S'il décide de modifier un produit :.<br>
+        </p>
+        <img src="img/modifier_produit.png"><br><br>
+
+        <p>
+            <u><strong>La page panier :</strong></u><br>
+            Un client peut ajouter des articles à son panier.<br>
+            Une fois dans le panier, il peut en modifier la quantité. Le prix de la commande se met alors à jour<br>
+        </p>
+        <img src="img/panier.png"><br><br>
+    </div>
 
 {% endblock %}
