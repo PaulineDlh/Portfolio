@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6af435da-6390-4896-9545-d405c9319949" name="Default Changelist" comment="">
+    <list default="true" id="6af435da-6390-4896-9545-d405c9319949" name="Default Changelist" comment="Terminé ! Ajout du cv avec lien de dl dans l'accueil.&#10;Stage 2 OK avec liens vers doc. &#10;TODO : Redimensionner et centrer les cards">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/main/epreuveE6.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/epreuveE6.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/main/home.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/home.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,35 +19,36 @@
     <session id="-286603340">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="20" />
+          <entry key="project.closed" value="21" />
           <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.22" value="3" />
+          <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.5" value="4" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="21" />
+          <entry key="project.opened" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="5" />
+          <entry key="css" value="7" />
           <entry key="env" value="1" />
           <entry key="php" value="1" />
-          <entry key="twig" value="23" />
+          <entry key="twig" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key=".env file" value="1" />
-          <entry key="CSS" value="5" />
+          <entry key="CSS" value="7" />
           <entry key="PHP" value="1" />
-          <entry key="Twig" value="23" />
+          <entry key="Twig" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -54,8 +56,8 @@
           <entry key="css" value="197" />
           <entry key="env" value="4" />
           <entry key="php" value="1002" />
-          <entry key="twig" value="13004" />
-          <entry key="txt" value="450" />
+          <entry key="twig" value="13750" />
+          <entry key="txt" value="589" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -63,22 +65,44 @@
           <entry key=".env file" value="4" />
           <entry key="CSS" value="197" />
           <entry key="PHP" value="1002" />
-          <entry key="PLAIN_TEXT" value="450" />
-          <entry key="Twig" value="13004" />
+          <entry key="PLAIN_TEXT" value="589" />
+          <entry key="Twig" value="13750" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/main/epreuveE6.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="292" column="90" selection-start-line="292" selection-start-column="90" selection-end-line="292" selection-end-column="90" />
+            <state relative-caret-position="169">
+              <caret line="373" column="12" selection-start-line="373" selection-start-column="12" selection-end-line="373" selection-end-column="58" />
               <folding>
-                <element signature="e#12376#12396#0#HTML" expanded="true" />
-                <element signature="e#15350#15370#0#HTML" expanded="true" />
+                <element signature="e#225#318#0#HTML" expanded="true" />
+                <element signature="e#2169#2255#0#HTML" expanded="true" />
+                <element signature="e#2743#2781#0#HTML" expanded="true" />
+                <element signature="e#19822#19843#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/main/home.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="579">
+              <caret line="36" column="77" selection-start-line="36" selection-start-column="77" selection-end-line="36" selection-end-column="77" />
+              <folding>
+                <element signature="e#739#779#0#HTML" expanded="true" />
+                <element signature="e#891#912#0#HTML" expanded="true" />
+                <element signature="e#1096#1117#0#HTML" expanded="true" />
+                <element signature="e#1256#1277#0#HTML" expanded="true" />
+                <element signature="e#1422#1443#0#HTML" expanded="true" />
+                <element signature="e#1585#1606#0#HTML" expanded="true" />
+                <element signature="e#2030#2049#0#HTML" expanded="true" />
+                <element signature="e#2090#2160#0#HTML" expanded="true" />
+                <element signature="e#2209#2248#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,13 +121,13 @@
         <option value="$PROJECT_DIR$/templates/main/cv.html.twig" />
         <option value="$PROJECT_DIR$/templates/main/ppe3.html.twig" />
         <option value="$PROJECT_DIR$/src/Controller/MainController.php" />
-        <option value="$PROJECT_DIR$/templates/base.html.twig" />
         <option value="$PROJECT_DIR$/templates/main/appMobile.html.twig" />
-        <option value="$PROJECT_DIR$/templates/main/home.html.twig" />
         <option value="$PROJECT_DIR$/templates/main/clientCSharp.html.twig" />
         <option value="$PROJECT_DIR$/templates/main/projets.html.twig" />
         <option value="$PROJECT_DIR$/public/css/style.css" />
+        <option value="$PROJECT_DIR$/templates/base.html.twig" />
         <option value="$PROJECT_DIR$/templates/main/epreuveE6.html.twig" />
+        <option value="$PROJECT_DIR$/templates/main/home.html.twig" />
       </list>
     </option>
   </component>
@@ -143,7 +167,19 @@
             <path>
               <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -199,7 +235,8 @@
       <workItem from="1553696043964" duration="74000" />
       <workItem from="1553854102620" duration="2202000" />
       <workItem from="1553879377442" duration="6947000" />
-      <workItem from="1553886789328" duration="542000" />
+      <workItem from="1553886789328" duration="2241000" />
+      <workItem from="1554108082908" duration="2727000" />
     </task>
     <task id="LOCAL-00001" summary="Début de création de l'onglet projet (ppe 3 OK) avec une card">
       <created>1553251946456</created>
@@ -264,17 +301,31 @@
       <option name="project" value="LOCAL" />
       <updated>1553887293102</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="modif">
+      <created>1553887348190</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1553887348190</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Terminé ! Ajout du cv avec lien de dl dans l'accueil.&#10;Stage 2 OK avec liens vers doc. &#10;TODO : Redimensionner et centrer les cards">
+      <created>1553888872318</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1553888872318</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40794000" />
+    <option name="totallyTimeSpent" value="45220000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19498383" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19822006" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -311,7 +362,9 @@
     <MESSAGE value="Modif au niveau du ppe3, avancement." />
     <MESSAGE value="Portfolio modifié. Cards en haut de la page epreuve E6 avec des ancres vers les projets. &#10;Projets ok : ppe1, ppe2, ppe3, ppe4 (c#), stage 1" />
     <MESSAGE value="Ajout du fichier sur REST et SOAP + lien de téléchargement" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout du fichier sur REST et SOAP + lien de téléchargement" />
+    <MESSAGE value="modif" />
+    <MESSAGE value="Terminé ! Ajout du cv avec lien de dl dans l'accueil.&#10;Stage 2 OK avec liens vers doc. &#10;TODO : Redimensionner et centrer les cards" />
+    <option name="LAST_COMMIT_MESSAGE" value="Terminé ! Ajout du cv avec lien de dl dans l'accueil.&#10;Stage 2 OK avec liens vers doc. &#10;TODO : Redimensionner et centrer les cards" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.env">
@@ -328,16 +381,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/main/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="33" column="54" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/main/appMobile.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -345,24 +388,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/main/home.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="123" selection-start-line="8" selection-start-column="123" selection-end-line="8" selection-end-column="127" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/main/projets.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -394,13 +423,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/main/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/main/epreuveE6.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="292" column="90" selection-start-line="292" selection-start-column="90" selection-end-line="292" selection-end-column="90" />
+        <state relative-caret-position="169">
+          <caret line="373" column="12" selection-start-line="373" selection-start-column="12" selection-end-line="373" selection-end-column="58" />
           <folding>
-            <element signature="e#12376#12396#0#HTML" expanded="true" />
-            <element signature="e#15350#15370#0#HTML" expanded="true" />
+            <element signature="e#225#318#0#HTML" expanded="true" />
+            <element signature="e#2169#2255#0#HTML" expanded="true" />
+            <element signature="e#2743#2781#0#HTML" expanded="true" />
+            <element signature="e#19822#19843#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/main/home.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="36" column="77" selection-start-line="36" selection-start-column="77" selection-end-line="36" selection-end-column="77" />
+          <folding>
+            <element signature="e#739#779#0#HTML" expanded="true" />
+            <element signature="e#891#912#0#HTML" expanded="true" />
+            <element signature="e#1096#1117#0#HTML" expanded="true" />
+            <element signature="e#1256#1277#0#HTML" expanded="true" />
+            <element signature="e#1422#1443#0#HTML" expanded="true" />
+            <element signature="e#1585#1606#0#HTML" expanded="true" />
+            <element signature="e#2030#2049#0#HTML" expanded="true" />
+            <element signature="e#2090#2160#0#HTML" expanded="true" />
+            <element signature="e#2209#2248#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
