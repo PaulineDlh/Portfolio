@@ -1,7 +1,32 @@
 {% extends 'base.html.twig' %}
 
+{% block stylesheets %}
+    <link rel="stylesheet" href="/css/style.css">
+{% endblock %}
+
 {% block body %}
 
-    <h1>Epreuve E4</h1>
+    <h1><u>Epreuve E4 : Conception et maintenance de solutions informatiques</u></h1><br>
+
+    <div class="container">
+        <p>
+            <h2 id="">Application client lourd c# :</h2><br>
+            <h3 id="">Diagramme de classes :</h3>
+            <img src="img/Diagramme_classes_client_lourd.PNG", style="width: 400px;"><br><br>
+            <h3 id="">Documentation utilisateur :</h3>
+            <p><a href="doc/doc_utilisateur_client_lourd">Télécharger la documentation utilisateur</a></p>
+            <p><a href="doc/bdd_ppe3">Télécharger la base de données</a></p>
+            <h3 id="">Projet :</h3>
+        </p>
+
+        <p>
+        <h2 id="">Application mobile :</h2><br>
+        <h3 id="">Diagramme de classes :</h3>
+        <img src="img/Diagramme_classes_appli_mobile.PNG", style="width: 400px;"><br><br>
+        <h3 id="">Documentation utilisateur :</h3>
+        <p><a href="doc/doc_utilisateur_appli_mobile">Télécharger la documentation utilisateur</a></p>
+        <h3 id="">Projet :</h3>
+        </p>
+    </div>
 
 {% endblock %}

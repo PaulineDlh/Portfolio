@@ -28,7 +28,7 @@ class MainController extends AbstractController
     }
 
     /**
-     * @Route("/epreuveE4", name="epreuveE4")
+     * @Route("/E4", name="epreuveE4")
      */
     public function getEpreuveE4(){
         return $this->render('main/epreuveE4.html.twig', [
@@ -37,7 +37,7 @@ class MainController extends AbstractController
     }
 
     /**
-     * @Route("/epreuveE6", name="epreuveE6")
+     * @Route("/E6", name="epreuveE6")
      */
     public function getEpreuveE6(){
         return $this->render('main/epreuveE6.html.twig', [
