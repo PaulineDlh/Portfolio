@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6af435da-6390-4896-9545-d405c9319949" name="Default Changelist" comment="Manquait un .">
+    <list default="true" id="6af435da-6390-4896-9545-d405c9319949" name="Default Changelist" comment="Les modifs sont terminées, ne manque que la doc utilsateur et l'apk de l'appli mobile Windev (impossible car Windev c'est de la merde)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MainController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/main/epreuveE4.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/epreuveE4.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/main/epreuveE6.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/epreuveE6.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,13 +18,13 @@
     <session id="-286603340">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="27" />
+          <entry key="project.closed" value="29" />
           <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.20" value="2" />
-          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.21" value="2" />
           <entry key="project.open.time.22" value="4" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.27" value="1" />
@@ -35,8 +32,8 @@
           <entry key="project.open.time.5" value="4" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="28" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -60,8 +57,8 @@
           <entry key="css" value="197" />
           <entry key="env" value="4" />
           <entry key="php" value="1002" />
-          <entry key="twig" value="14165" />
-          <entry key="txt" value="602" />
+          <entry key="twig" value="14587" />
+          <entry key="txt" value="788" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -69,8 +66,8 @@
           <entry key=".env file" value="4" />
           <entry key="CSS" value="197" />
           <entry key="PHP" value="1002" />
-          <entry key="PLAIN_TEXT" value="602" />
-          <entry key="Twig" value="14165" />
+          <entry key="PLAIN_TEXT" value="788" />
+          <entry key="Twig" value="14587" />
         </counts>
       </usages-collector>
     </session>
@@ -80,7 +77,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/main/epreuveE6.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
+            <state relative-caret-position="2116">
               <caret line="92" column="103" selection-start-line="92" selection-start-column="103" selection-end-line="92" selection-end-column="103" />
             </state>
           </provider>
@@ -89,11 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/main/home.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="78" />
-              <folding>
-                <element signature="e#1026#1047#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="414">
+              <caret line="18" column="79" selection-start-line="18" selection-start-column="79" selection-end-line="18" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -101,21 +95,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/main/epreuveE4.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="86" selection-start-line="8" selection-start-column="86" selection-end-line="8" selection-end-column="86" />
-              <folding>
-                <element signature="e#383#404#0#HTML" expanded="true" />
-                <element signature="e#882#903#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/MainController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="874">
-              <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+            <state relative-caret-position="446">
+              <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -150,10 +131,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1879" />
-    <option name="y" value="-17" />
-    <option name="width" value="1296" />
-    <option name="height" value="1000" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -179,19 +160,7 @@
             <path>
               <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
@@ -265,7 +234,9 @@
       <workItem from="1555495271910" duration="24000" />
       <workItem from="1556812474253" duration="155000" />
       <workItem from="1556812849235" duration="490000" />
-      <workItem from="1558701951460" duration="1908000" />
+      <workItem from="1558701951460" duration="6347000" />
+      <workItem from="1558804242739" duration="361000" />
+      <workItem from="1558806934016" duration="22000" />
     </task>
     <task id="LOCAL-00001" summary="Début de création de l'onglet projet (ppe 3 OK) avec une card">
       <created>1553251946456</created>
@@ -358,17 +329,31 @@
       <option name="project" value="LOCAL" />
       <updated>1554111059880</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="premières modifs, à poursuivre pour mise en ligne">
+      <created>1558703928970</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1558703928970</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Les modifs sont terminées, ne manque que la doc utilsateur et l'apk de l'appli mobile Windev (impossible car Windev c'est de la merde)">
+      <created>1558719272637</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1558719272638</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49115000" />
+    <option name="totallyTimeSpent" value="53937000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1296" height="1000" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19789983" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20615797" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -408,7 +393,9 @@
     <MESSAGE value="modif" />
     <MESSAGE value="Terminé ! Ajout du cv avec lien de dl dans l'accueil.&#10;Stage 2 OK avec liens vers doc. &#10;TODO : Redimensionner et centrer les cards" />
     <MESSAGE value="Manquait un ." />
-    <option name="LAST_COMMIT_MESSAGE" value="Manquait un ." />
+    <MESSAGE value="premières modifs, à poursuivre pour mise en ligne" />
+    <MESSAGE value="Les modifs sont terminées, ne manque que la doc utilsateur et l'apk de l'appli mobile Windev (impossible car Windev c'est de la merde)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Les modifs sont terminées, ne manque que la doc utilsateur et l'apk de l'appli mobile Windev (impossible car Windev c'est de la merde)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.env">
@@ -479,29 +466,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/main/epreuveE6.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
+        <state relative-caret-position="2116">
           <caret line="92" column="103" selection-start-line="92" selection-start-column="103" selection-end-line="92" selection-end-column="103" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/main/home.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="78" />
-          <folding>
-            <element signature="e#1026#1047#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="414">
+          <caret line="18" column="79" selection-start-line="18" selection-start-column="79" selection-end-line="18" selection-end-column="79" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/main/epreuveE4.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="86" selection-start-line="8" selection-start-column="86" selection-end-line="8" selection-end-column="86" />
-          <folding>
-            <element signature="e#383#404#0#HTML" expanded="true" />
-            <element signature="e#882#903#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="446">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
         </state>
       </provider>
     </entry>
